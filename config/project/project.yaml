@@ -1,0 +1,27 @@
+dateModified: 1643492566
+email:
+  fromEmail: admin@example.com
+  fromName: Whiskygalore
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    012ecc82-b3da-4f9f-872a-4bb1db3688a7: Common # Common
+    ab4973fd-7516-44ce-a308-b224f9af0c9f: Whiskygalore # Whiskygalore
+    d75d86bd-f9a4-4ed1-a49a-06f3d7081b26: Whiskygalore # Whiskygalore
+plugins:
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+system:
+  edition: solo
+  live: true
+  name: Whiskygalore
+  schemaVersion: 3.7.8
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

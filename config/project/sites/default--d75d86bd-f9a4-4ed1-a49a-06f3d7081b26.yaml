@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en
+name: Whiskygalore
+primary: true
+siteGroup: ab4973fd-7516-44ce-a308-b224f9af0c9f # Whiskygalore
+sortOrder: 1
