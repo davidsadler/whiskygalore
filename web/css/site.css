@@ -52,11 +52,6 @@ Nav Items and Tab Group
     display: flex;
     justify-content: space-around;
     list-style: none;
-    padding-bottom: 1rem;
-}
-
-.tab-group {
-    padding-bottom: 0;
 }
 
 .nav-items a,
@@ -66,8 +61,8 @@ Nav Items and Tab Group
     display: inline-block;
 }
 
-.header .tab-group a {
-    color: #AAAAAA;
+.nav-items a {
+    padding-bottom: 3rem;
 }
 
 .nav-items li a:focus,
@@ -76,17 +71,8 @@ Nav Items and Tab Group
 .tab-group li a:focus,
 .tab-group li a:hover,
 .tab-group li.active a {
-    text-decoration: underline;
-    text-underline-offset: 3.25rem;
-    text-decoration-color: #FFB800;
-    text-decoration-thickness: 0.25rem;
-}
-
-.header .tab-group li a:focus,
-.header .tab-group li a:hover,
-.header .tab-group li.active a {
-    color: #FFFFFF;
-    text-underline-offset: 2.25rem;
+    border-bottom: 0.25rem solid #FFB800;
+    text-decoration: none;
 }
 
 .tab-group.highlight-first li a:focus:first-letter,
@@ -109,6 +95,38 @@ Nav Items and Tab Group
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.header .tab-group a {
+    color: #AAAAAA;
+}
+
+.header .tab-group li a:focus,
+.header .tab-group li a:hover,
+.header .tab-group li.active a {
+    color: #FFFFFF;
+}
+
+.tabs .tab-group li a {
+    border-bottom: 0.15rem solid #112E66;
+}
+
+.tabs .tab-group li.inactive a {
+    color: #CCCCCC;
+    border-bottom: 0.15rem solid #CCCCCC;
+}
+
+.tabs .tab-group li a:hover {
+    background: #F1F6FF;
+}
+
+.tabs .tab-group li.inactive a:hover {
+    background: none;
+    cursor: default;
+}
+
+.tabs .tab-group a {
+    padding: 1rem 2rem 1rem 2rem;
 }
 
 .container {
@@ -166,6 +184,11 @@ Nav Items and Tab Group
     line-height: 1.5rem;
     font-weight: normal;
     margin: 2rem 0 4rem 0;
+}
+
+.tabs {
+    padding: 3rem;
+    font-size: 1rem;
 }
 
 .tabs nav {
