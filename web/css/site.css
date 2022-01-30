@@ -62,6 +62,7 @@ button {
     padding: 1rem 2.5rem;
     font-size: 1rem;
     border: none;
+    font-family: LeikoRegular, serif;
 }
 
 button.btn-primary {
@@ -397,6 +398,10 @@ Nav Items and Tab Group
     font-family: TinosRegular, serif;
     font-size: 0.9rem;
     font-style: normal;
+}
+
+.footer-info address {
+    line-height: 1.35rem;
 }
 
 .footer-info li {
