@@ -371,11 +371,12 @@ Nav Items and Tab Group
     display: flex;
     justify-content: space-between;
     padding-top: 4rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
 }
 
 .footer-info h4 {
     margin: 0;
+    margin-bottom: 1rem;
 }
 
 .footer-info address,
@@ -396,4 +397,27 @@ ul.horizontal {
 
 ul.horizontal li {
     margin-left: 2rem;
+}
+
+.footer {
+    font-family: TinosRegular, serif;
+    font-size: 0.75rem;
+    padding: 1rem 8rem;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer .spacer {
+    flex-grow: 1;
+}
+
+.push-left {
+    margin-right: 3rem;
+}
+
+.push-right {
+    margin-left: 3rem;
 }
