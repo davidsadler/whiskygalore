@@ -10,10 +10,11 @@
 
 body {
     font-family: LeikoRegular, serif;
-    background-color:  #FFFFFF;
+    background-color:  #CCCCCC;
     font-size: 1.125rem;
     font-weight: normal;
     line-height: 1.75rem;
+    color: #112E66;
 }
 
 img {
@@ -26,15 +27,14 @@ ul, ol {
 }
 
 a {
-    color: #FFFFFF;
+    color: #112E66;
     text-decoration: none;
     margin: auto;
     padding-right: 16px;
 }
 
-a.chevron {
-    background: url('/images/chevron.png') no-repeat;
-    background-position: calc(100%);
+a svg {
+    fill:  currentColor;
 }
 
 a:focus,
@@ -56,13 +56,12 @@ Nav Items and Tab Group
 
 .nav-items a,
 .tab-group a {
-    color: #112E66;
     padding: 2rem 0;
     display: inline-block;
 }
 
 .nav-items a {
-    padding-bottom: 3rem;
+    padding: 3rem 0;
 }
 
 .nav-items li a:focus,
@@ -97,39 +96,8 @@ Nav Items and Tab Group
     align-items: center;
 }
 
-.header .tab-group a {
-    color: #AAAAAA;
-}
-
-.header .tab-group li a:focus,
-.header .tab-group li a:hover,
-.header .tab-group li.active a {
-    color: #FFFFFF;
-}
-
-.tabs .tab-group li a {
-    border-bottom: 0.15rem solid #112E66;
-}
-
-.tabs .tab-group li.inactive a {
-    color: #CCCCCC;
-    border-bottom: 0.15rem solid #CCCCCC;
-}
-
-.tabs .tab-group li a:hover {
-    background: #F1F6FF;
-}
-
-.tabs .tab-group li.inactive a:hover {
-    background: none;
-    cursor: default;
-}
-
-.tabs .tab-group a {
-    padding: 1rem 2rem 1rem 2rem;
-}
-
 .container {
+    background-color:  #FFFFFF;
     margin: auto;
     width: 1440px;
 }
@@ -152,6 +120,16 @@ Nav Items and Tab Group
 .header nav {
     width: 700px;
     margin: auto;
+}
+
+.header .tab-group a {
+    color: #AAAAAA;
+}
+
+.header .tab-group li a:focus,
+.header .tab-group li a:hover,
+.header .tab-group li.active a {
+    color: #FFFFFF;
 }
 
 .header .content-centre {
@@ -186,6 +164,10 @@ Nav Items and Tab Group
     margin: 2rem 0 4rem 0;
 }
 
+.header a {
+    color: #FFFFFF;
+}
+
 .tabs {
     padding: 3rem;
     font-size: 1rem;
@@ -194,4 +176,57 @@ Nav Items and Tab Group
 .tabs nav {
     width: 540px;
     margin: auto;
+}
+
+.tabs .tab-group li a {
+    border-bottom: 0.15rem solid #112E66;
+}
+
+.tabs .tab-group li.inactive a {
+    color: #CCCCCC;
+    border-bottom: 0.15rem solid #CCCCCC;
+}
+
+.tabs .tab-group li a:hover {
+    background: #F1F6FF;
+}
+
+.tabs .tab-group li.inactive a:hover {
+    background: none;
+    cursor: default;
+}
+
+.tabs .tab-group a {
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.cards {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-around;
+    width: 1201px;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.card {
+    width: 373px;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: normal;
+}
+
+.card p {
+    font-family: TinosRegular, serif;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.card a:hover img {
+    transform: scale(1.1);
 }
