@@ -96,6 +96,40 @@ Nav Items and Tab Group
     align-items: center;
 }
 
+.content-centre {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content-centre .copy {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.copy h1 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+    font-weight: normal;
+    margin: 7rem 0 0 0;
+}
+
+.copy h2 {
+    font-family: TinosRegular, serif;
+    font-size: 1em;
+    line-height: 1.5rem;
+    font-weight: normal;
+    margin: 2rem 0 4rem 0;
+}
+
+.copy a {
+    color: #FFFFFF;
+}
+
 .container {
     background-color:  #FFFFFF;
     margin: auto;
@@ -132,40 +166,9 @@ Nav Items and Tab Group
     color: #FFFFFF;
 }
 
-.content-centre {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.content-centre .copy {
+.header .content-centre .copy {
     width: 580px;
     height: 319px;
-    margin: 0 auto;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-
-.copy h1 {
-    font-size: 3.5rem;
-    line-height: 4rem;
-    font-weight: normal;
-    margin: 7rem 0 0 0;
-}
-
-.copy h2 {
-    font-family: TinosRegular, serif;
-    font-size: 1em;
-    line-height: 1.5rem;
-    font-weight: normal;
-    margin: 2rem 0 4rem 0;
-}
-
-.copy a {
-    color: #FFFFFF;
 }
 
 .tabs {
@@ -247,4 +250,33 @@ Nav Items and Tab Group
 .content-right .copy h1 {
     font-size: 3.5rem;
     margin: 0;
+}
+
+.intro {
+    padding-top: 4rem;
+}
+
+.intro .content-centre .copy {
+    width: 700px;
+}
+
+.intro .content-centre .copy h1 {
+    margin: 0;
+}
+
+.intro .content-centre .copy h2 {
+    margin: 2.5rem 5rem 2.5rem 5rem;
+}
+
+button {
+    background-color: #112E66;
+    margin: auto;
+    color: #FFF;
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+    border: none;
+}
+
+button:hover {
+    background-color: #0E3B93;
 }
