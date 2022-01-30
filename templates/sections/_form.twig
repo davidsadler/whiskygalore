@@ -1,0 +1,29 @@
+<section class="form">
+    <form action="contact" method="post">
+        <div class="field-control error">
+            <label class="form-label" for="email">Email Address</label>
+            <input class="form-control" id="email" name="email" type="email" value="john.doe@mysite.com">
+            <p>*Invalid Email Address</p>
+        </div>
+        <div class="field-control">
+            <label class="form-label" for="name">Your Name</label>
+            <input class="form-control" id="name" name="name" value="John Doe">
+        </div>
+        <div class="field-control">
+            <label class="form-label" for="topic">Choose a topic</label>
+            <select class="form-select" id="topic" name="topic">
+                <option value="" disabled selected>Please select</option>
+                <option value="topic-1">Topic 1</option>
+                <option value="topic-2">Topic 2</option>
+                <option value="topic-3">Topic 3</option>
+            </select>
+        </div>
+        <div class="field-control">
+            <label class="form-label" for="message">Message</label>
+            <textarea class="form-control" id="message" name="message" placeholder="Enter a message..." rows="4"></textarea>
+        </div>
+        <div class="btn-control">
+            <button class="btn-primary" type="submit">Button Text</button>
+        </div>
+    </form>
+</section>

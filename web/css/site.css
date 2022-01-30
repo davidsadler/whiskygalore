@@ -8,6 +8,11 @@
     src: url('/fonts/Tinos-Regular.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('/fonts/Roboto-Regular.ttf') format('truetype');
+}
+
 body {
     font-family: LeikoRegular, serif;
     background-color:  #CCCCCC;
@@ -46,13 +51,16 @@ a:hover {
 button {
     background-color: #112E66;
     margin: auto;
-    color: #FFF;
     padding: 1rem 2.5rem;
     font-size: 1rem;
     border: none;
 }
 
-button:hover {
+button.btn-primary {
+    color: #FFF;
+}
+
+button.btn-primary:hover {
     background-color: #0E3B93;
 }
 
@@ -265,6 +273,10 @@ Nav Items and Tab Group
     margin: 0;
 }
 
+.content-right .copy h2 {
+    margin: 2rem 0 3rem 0;
+}
+
 .intro {
     padding-top: 4rem;
 }
@@ -282,7 +294,7 @@ Nav Items and Tab Group
 }
 
 .contact {
-    padding-top: 4rem;
+    padding-top: 3rem;
 }
 
 .contact .content-centre .copy {
@@ -290,9 +302,61 @@ Nav Items and Tab Group
 }
 
 .contact .content-centre .copy h1 {
-    margin: 0;
+    margin: 3rem;
 }
 
 .contact .content-centre .copy h2 {
     font-size: 2.5rem;
+    margin-top: 0;
+}
+
+.form {
+    font-family: RobotoRegular, serif;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.form form {
+    width: 50%;
+}
+
+.field-control {
+    color: #1A1A1A;
+    margin-bottom: 1.5rem;
+}
+
+.field-control.error {
+    color: #E9003B;
+}
+
+.field-control.error p {
+    font-size: 0.75rem;
+    margin: 0.25rem;
+}
+
+.form-label {
+    display: inline-block;
+    margin-bottom: 0.75rem;
+}
+
+.form-control,
+.form-select {
+    display: block;
+    width: 100%;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    padding: 0.75rem 1rem;
+    background-color: #FFFFFF;
+}
+
+.field-control.error .form-control {
+    border-color: #E9003B;
+    color: #E9003B;
+    background-color: #FFE6EC;
+}
+
+.btn-control {
+    text-align: center;
 }
