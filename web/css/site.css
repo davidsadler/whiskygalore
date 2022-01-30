@@ -108,7 +108,7 @@ Nav Items and Tab Group
 }
 
 .header {
-    background-image: url('/images/mainstage-image.png');
+    background-image: url('/images/header-image.png');
     background-color: #112E66;
     height: 720px;
     display: flex;
@@ -132,14 +132,14 @@ Nav Items and Tab Group
     color: #FFFFFF;
 }
 
-.header .content-centre {
+.content-centre {
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.header .copy {
+.content-centre .copy {
     width: 580px;
     height: 319px;
     margin: 0 auto;
@@ -149,14 +149,14 @@ Nav Items and Tab Group
     justify-content: space-around;
 }
 
-.header h1 {
+.copy h1 {
     font-size: 3.5rem;
     line-height: 4rem;
     font-weight: normal;
     margin: 7rem 0 0 0;
 }
 
-.header h2 {
+.copy h2 {
     font-family: TinosRegular, serif;
     font-size: 1em;
     line-height: 1.5rem;
@@ -164,7 +164,7 @@ Nav Items and Tab Group
     margin: 2rem 0 4rem 0;
 }
 
-.header a {
+.copy a {
     color: #FFFFFF;
 }
 
@@ -229,4 +229,22 @@ Nav Items and Tab Group
 
 .card a:hover img {
     transform: scale(1.1);
+}
+
+.content-right {
+    color: #FFFFFF;
+    background-color: #112E66;
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 8rem;
+}
+
+.content-right .copy {
+    width: 470px;
+    padding-top: 3rem;
+}
+
+.content-right .copy h1 {
+    font-size: 3.5rem;
+    margin: 0;
 }
