@@ -13,13 +13,22 @@
     src: url('/fonts/Roboto-Regular.ttf') format('truetype');
 }
 
+html, body {
+    margin:0;
+    height:100%;
+    min-height:100%;
+}
+
 body {
     font-family: LeikoRegular, serif;
-    background-color:  #CCCCCC;
+    background-color:  #FFFFFF;
     font-size: 1.125rem;
     font-weight: normal;
     line-height: 1.75rem;
     color: #112E66;
+    margin:0;
+    display: flex;
+    flex-direction: column;
 }
 
 img {
@@ -150,8 +159,12 @@ Nav Items and Tab Group
     color: #FFFFFF;
 }
 
+.container-wrapper {
+    flex: auto;
+    overflow-y: auto;
+}
+
 .container {
-    background-color:  #FFFFFF;
     margin: auto;
     width: 1440px;
 }

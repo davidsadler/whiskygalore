@@ -9,17 +9,19 @@
         <link rel="stylesheet" href="/css/site.css">
     </head>
     <body>
-        <div class="container">
             {%  include'sections/_menu' %}
-            {%  include'sections/_header' %}
-            {%  include'sections/_intro' %}
-            {%  include'sections/_tabs' %}
-            {%  include'sections/_cards' %}
-            {%  include'sections/_content_right' %}
-            {%  include'sections/_contact' %}
-            {%  include'sections/_form' %}
-            {%  include'sections/_footer_info' %}
-            {%  include'sections/_footer' %}
-        </div>
+            <div class="container-wrapper">
+                <div class="container">
+                    {%  include'sections/_header' %}
+                    {%  include'sections/_intro' %}
+                    {%  include'sections/_tabs' %}
+                    {%  include'sections/_cards' %}
+                    {%  include'sections/_content_right' %}
+                    {%  include'sections/_contact' %}
+                    {%  include'sections/_form' %}
+                    {%  include'sections/_footer_info' %}
+                    {%  include'sections/_footer' %}
+                </div>
+            </div>
     </body>
 </html>
