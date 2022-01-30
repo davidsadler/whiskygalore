@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'LeikoRegular';
+    src: url('/fonts/Leiko-Regular.otf') format('opentype');
+}
+
+body {
+    font-family: LeikoRegular, serif;
+    background-color:  #FFFFFF;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: normal;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    margin: auto;
+    width: 1440px;
+}
+
+.menu {
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 1rem;
+}
+
+.nav-items .logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-items .logo-placeholder {
+    width: 140px;
+    height: 60px;
+    background-color: #F1F6FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-items a {
+    color: #112E66;
+    text-decoration: none;
+    padding: 2rem;
+    display: inline-block;
+}
+
+.nav-items li a:focus,
+.nav-items li a:hover,
+.nav-items li.selected a {
+    border-bottom: 0.25rem solid #FFB800;
+    color: #0E3B93;
+}
