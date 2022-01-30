@@ -29,13 +29,12 @@ img {
 ul, ol {
     margin: 0;
     padding: 0;
+    list-style: none;
 }
 
 a {
     color: #112E66;
     text-decoration: none;
-    margin: auto;
-    padding-right: 16px;
 }
 
 a svg {
@@ -62,6 +61,7 @@ button.btn-primary {
 
 button.btn-primary:hover {
     background-color: #0E3B93;
+    cursor: pointer;
 }
 
 /**
@@ -72,7 +72,6 @@ Nav Items and Tab Group
 .tab-group {
     display: flex;
     justify-content: space-around;
-    list-style: none;
 }
 
 .nav-items a,
@@ -359,4 +358,42 @@ Nav Items and Tab Group
 
 .btn-control {
     text-align: center;
+}
+
+.footer-info {
+    margin-top: 9rem;
+    padding: 0 8rem;
+}
+
+.footer-into-content {
+    border-top: 1px solid #112E66;
+    border-bottom: 1px solid #112E66;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+.footer-info h4 {
+    margin: 0;
+}
+
+.footer-info address,
+.footer-info ul {
+    font-family: TinosRegular, serif;
+    font-size: 0.9rem;
+    font-style: normal;
+}
+
+.footer-info li {
+    margin-bottom: 0.25rem;
+}
+
+ul.horizontal {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.horizontal li {
+    margin-left: 2rem;
 }
