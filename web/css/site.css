@@ -81,7 +81,7 @@ a:hover {
 
 .nav-items li a:focus,
 .nav-items li a:hover,
-.nav-items li.selected a {
+.nav-items li.active a {
     text-decoration: underline;
     text-underline-offset: 3.25rem;
     text-decoration-color: #FFB800;
@@ -146,7 +146,7 @@ a:hover {
 
 .tab-items li a:focus,
 .tab-items li a:hover,
-.tab-items li.selected a {
+.tab-items li.active a {
     color: #FFFFFF;
     text-decoration: underline;
     text-underline-offset: 2.25rem;
@@ -156,6 +156,6 @@ a:hover {
 
 .tab-items li a:focus:first-letter,
 .tab-items li a:hover:first-letter,
-.tab-items li.selected a:first-letter {
+.tab-items li.active a:first-letter {
     color: #FFB800;
 }
