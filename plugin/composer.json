@@ -1,0 +1,32 @@
+{
+  "name": "dts/whisky-json",
+  "description": "Simple plugin to return a JSON output of whisky entry data to an endpoint.",
+  "type": "craft-plugin",
+  "keywords": [
+    "craft",
+    "cms",
+    "craftcms",
+    "craft-plugin",
+    "whisky-json"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Sadler",
+      "homepage": "https://davidtsadler.com"
+    }
+  ],
+  "require": {
+    "craftcms/cms": "^3.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "DTS\\WhiskyJson\\": "src/"
+    }
+  },
+  "extra": {
+    "name": "whisky-json",
+    "handle": "whisky-json",
+    "class": "DTS\\WhiskyJson\\WhiskyJson"
+  }
+}

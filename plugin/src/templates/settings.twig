@@ -1,0 +1,9 @@
+{% import "_includes/forms" as forms %}
+
+{{ forms.textField({
+    label: 'Endpoint',
+    instructions: 'Endpoint where Whisky entry data is returned.',
+    id: 'endpoint',
+    name: 'endpoint',
+    value: settings['endpoint']})
+}}

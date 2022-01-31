@@ -1,4 +1,4 @@
-dateModified: 1643492566
+dateModified: 1643662400
 email:
   fromEmail: admin@example.com
   fromName: Whiskygalore
@@ -13,6 +13,10 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 2.3.0
+  whisky-json:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true
