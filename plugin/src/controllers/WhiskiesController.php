@@ -38,12 +38,15 @@ class WhiskiesController extends Controller
             if ($entry) {
                 return $this->returnJson($entry);
             } else {
-                throw new NotFoundHttpException('Page not found.');
+                Craft::$app->getResponse()->setStatusCode(404);
+                return $this->asErrorJson('Whisky not found');
             }
         } catch (\Throwable $e) {
             Craft::error('Error resolving whisky-json endpoint: ' . $e->getMessage(), __METHOD__);
 
-            throw $e;
+            Craft::$app->getResponse()->setStatusCode(500);
+
+            return $this->asErrorJson($e->getMessage());
         }
     }
 
