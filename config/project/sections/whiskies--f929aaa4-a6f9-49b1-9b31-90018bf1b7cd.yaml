@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: whiskies
+name: Whiskies
+propagationMethod: all
+siteSettings:
+  d75d86bd-f9a4-4ed1-a49a-06f3d7081b26: # Whiskygalore
+    enabledByDefault: true
+    hasUrls: true
+    template: whiskies/_entry
+    uriFormat: 'whiskies/{slug}'
+type: channel

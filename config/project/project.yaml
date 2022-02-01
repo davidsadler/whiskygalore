@@ -1,4 +1,4 @@
-dateModified: 1643667789
+dateModified: 1643750978
 email:
   fromEmail: admin@example.com
   fromName: Whiskygalore
@@ -6,8 +6,18 @@ email:
 meta:
   __names__:
     012ecc82-b3da-4f9f-872a-4bb1db3688a7: Common # Common
+    50f68bc7-5e17-4607-a4c1-86e383650bae: Whiskies # Whiskies
+    302e9976-9095-4e4a-934d-0f370e896e96: Image # Image
+    805b7fa7-1af5-46cc-8ed5-de97073e0697: Whisky # Whisky
+    1365aec2-cd53-477d-9ac3-0ff6074c7872: Text # Text
+    3640a29c-41e4-4f8c-9cce-73367dbb8fff: Image # Image
+    5206c881-23d6-452b-805c-6c38e1abf02b: 'Whisky Fields' # Whisky Fields
+    8974a40c-bd8a-4d16-b5d9-08097d782264: Image # Image
+    40596ee9-5916-4c79-b2d6-2e0fd9b252d4: Description # Description
     ab4973fd-7516-44ce-a308-b224f9af0c9f: Whiskygalore # Whiskygalore
+    d1e8755c-91e1-4d32-bf27-f8588feae365: Text # Text
     d75d86bd-f9a4-4ed1-a49a-06f3d7081b26: Whiskygalore # Whiskygalore
+    f929aaa4-a6f9-49b1-9b31-90018bf1b7cd: Whiskies # Whiskies
 plugins:
   redactor:
     edition: standard

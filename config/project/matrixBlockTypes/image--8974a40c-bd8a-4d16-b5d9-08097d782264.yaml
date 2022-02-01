@@ -1,0 +1,55 @@
+field: 40596ee9-5916-4c79-b2d6-2e0fd9b252d4 # Description
+fieldLayouts:
+  5713f361-9d67-4268-8e9a-cb3628847d61:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 302e9976-9095-4e4a-934d-0f370e896e96 # Image
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  302e9976-9095-4e4a-934d-0f370e896e96: # Image
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: ''
+    name: Image
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:50f68bc7-5e17-4607-a4c1-86e383650bae' # Whiskies
+      defaultUploadLocationSubpath: ''
+      limit: '10'
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: '1'
+      selectionLabel: ''
+      showSiteMenu: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:50f68bc7-5e17-4607-a4c1-86e383650bae' # Whiskies
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: true
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: image
+name: Image
+sortOrder: 2

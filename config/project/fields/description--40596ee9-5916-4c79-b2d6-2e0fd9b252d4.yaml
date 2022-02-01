@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 5206c881-23d6-452b-805c-6c38e1abf02b # Whisky Fields
+handle: description
+instructions: ''
+name: Description
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_description}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
