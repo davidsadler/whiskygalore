@@ -17,7 +17,8 @@
     }
   ],
   "require": {
-    "craftcms/cms": "^3.1.0"
+    "craftcms/cms": "^3.1.0",
+    "league/fractal": "^0.19.2"
   },
   "autoload": {
     "psr-4": {

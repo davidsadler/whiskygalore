@@ -26,8 +26,12 @@ class WhiskyJson extends Plugin
             function (RegisterUrlRulesEvent $event) {
                 /**
                  * Register the one route for the endpoint configured in the settings.
+                 * Make slug parameter of route optional by defaulting to null.
                  */
-                $event->rules[$this->settings->endpoint] = 'whisky-json/whiskies/show';
+                $event->rules[$this->settings->endpoint.'/<slug:{slug}>'] = [
+                    'route'    => 'whisky-json/whiskies/show',
+                    'defaults' => ['slug' => null],
+                ];
             }
         );
     }
