@@ -1,0 +1,66 @@
+field: fe109994-56db-4b6b-bc22-e06154620dd1 # Menu Links
+fieldLayouts:
+  d089e989-e4f7-4809-a99e-e7db861908a1:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 5ef406da-704a-42c7-b797-0e563f48d8ff # Link Text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 131717ab-4367-46ad-8212-caaa95a565c5 # Link Destination
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  5ef406da-704a-42c7-b797-0e563f48d8ff: # Link Text
+    columnSuffix: leerhvep
+    contentColumnType: text
+    fieldGroup: null
+    handle: linkText
+    instructions: ''
+    name: 'Link Text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  131717ab-4367-46ad-8212-caaa95a565c5: # Link Destination
+    columnSuffix: axnunbig
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: linkDestination
+    instructions: ''
+    name: 'Link Destination'
+    searchable: false
+    settings:
+      maxLength: '255'
+      placeholder: null
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+handle: link
+name: Link
+sortOrder: 1
