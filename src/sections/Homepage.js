@@ -60,6 +60,12 @@ const GET_HOMEPAGE = gql`
       contentRightLinkUrl
       contactMessage
       contactPhone
+      services {
+        ... on services_service_BlockType {
+          linkText
+          linkUrl
+        }
+      }
     }
   }
 }
@@ -90,7 +96,7 @@ const Homepage = () => {
                     />
                     <Contact message={entry.contactMessage} phone={entry.contactPhone}/>
                     <Form/>
-                    <FooterInfo/>
+                    <FooterInfo services={entry.services}/>
                     <Footer/>
                 </div>
             </div>

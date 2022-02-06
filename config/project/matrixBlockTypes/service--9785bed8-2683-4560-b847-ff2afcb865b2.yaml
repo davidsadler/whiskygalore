@@ -1,0 +1,66 @@
+field: 140e1837-4825-41ec-97f2-56f9eb0a36c9 # Services
+fieldLayouts:
+  448ccb6b-4e50-4f05-b5b5-5e0eb9937c10:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 5bd664fe-ba31-4c14-bf28-5b53278e05bc # Link Text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: eb947a7d-3be2-4d04-9600-a361daef2657 # Link Url
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  5bd664fe-ba31-4c14-bf28-5b53278e05bc: # Link Text
+    columnSuffix: zuoncxfj
+    contentColumnType: text
+    fieldGroup: null
+    handle: linkText
+    instructions: ''
+    name: 'Link Text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  eb947a7d-3be2-4d04-9600-a361daef2657: # Link Url
+    columnSuffix: hlyjgovt
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: linkUrl
+    instructions: ''
+    name: 'Link Url'
+    searchable: false
+    settings:
+      maxLength: '255'
+      placeholder: null
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+handle: service
+name: Service
+sortOrder: 1

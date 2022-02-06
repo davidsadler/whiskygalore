@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 9baab332-2b61-4668-81ac-7ad4c612bb2a # Home Page
+handle: services
+instructions: ''
+name: Services
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_services}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -1,4 +1,4 @@
-dateModified: 1644182021
+dateModified: 1644182219
 email:
   fromEmail: admin@example.com
   fromName: Whiskygalore
@@ -10,6 +10,7 @@ meta:
     1f51a840-5dd0-47c8-98b9-9681d761022b: 'Content Right Link Text' # Content Right Link Text
     02f6c616-acf7-492c-a46e-a6558ec33a1f: Url # Url
     003da290-8241-4728-b3a7-69aa499c17d2: 'Link Text' # Link Text
+    5bd664fe-ba31-4c14-bf28-5b53278e05bc: 'Link Text' # Link Text
     5d1877b1-a1ee-461b-8294-a7259e932e32: 'Link Url' # Link Url
     5ef406da-704a-42c7-b797-0e563f48d8ff: 'Link Text' # Link Text
     5f3d9b6e-8212-43bb-b395-f79f7b98c28b: Description # Description
@@ -21,6 +22,7 @@ meta:
     50f68bc7-5e17-4607-a4c1-86e383650bae: Whiskies # Whiskies
     72a3eb4f-da6a-4629-a2f2-30c4de00b26a: 'Content Right Description' # Content Right Description
     86b7f5eb-8337-4c48-98ab-1fe28e16c0e2: Cards # Cards
+    140e1837-4825-41ec-97f2-56f9eb0a36c9: Services # Services
     206f0761-0ce2-47cf-8a78-9820d1e84a77: 'Intro Heading' # Intro Heading
     223ce368-6b6d-4b9e-ac38-2d48d0daaf7a: Image # Image
     302e9976-9095-4e4a-934d-0f370e896e96: Image # Image
@@ -37,6 +39,7 @@ meta:
     3640a29c-41e4-4f8c-9cce-73367dbb8fff: Image # Image
     5206c881-23d6-452b-805c-6c38e1abf02b: 'Whisky Fields' # Whisky Fields
     8974a40c-bd8a-4d16-b5d9-08097d782264: Image # Image
+    9785bed8-2683-4560-b847-ff2afcb865b2: Service # Service
     40596ee9-5916-4c79-b2d6-2e0fd9b252d4: Description # Description
     131717ab-4367-46ad-8212-caaa95a565c5: 'Link Destination' # Link Destination
     0512296b-8c4a-4b1e-a84a-666b2d69a8c1: Description # Description
@@ -55,6 +58,7 @@ meta:
     d75d86bd-f9a4-4ed1-a49a-06f3d7081b26: Whiskygalore # Whiskygalore
     d347ea3d-bb5d-47f2-8148-a8ba73e2c940: Title # Title
     de5d6326-237b-4ef6-942b-182c39caba73: 'Tab Inactive' # Tab Inactive
+    eb947a7d-3be2-4d04-9600-a361daef2657: 'Link Url' # Link Url
     ece9977a-9375-4306-9944-9a6c13bdd987: Headline # Headline
     ee2d8e36-aba0-43ad-928d-97307f698f69: 'Tab Text' # Tab Text
     f8dcfb69-7049-49f2-939c-e0c5feb3064f: 'Content Right Heading' # Content Right Heading

@@ -1,7 +1,8 @@
 import React from 'react'
 import Button from '../components/Button'
+import Card from "../components/Card";
 
-export default () => (
+export default (props) => (
     <section className="footer-info">
         <div className="footer-into-content">
             <div>
@@ -19,11 +20,9 @@ export default () => (
             <div>
                 <h4>Services</h4>
                 <ul>
-                    <li><a href="#">Service One</a></li>
-                    <li><a href="#">Specialist Service Two</a></li>
-                    <li><a href="#">Specialist Three</a></li>
-                    <li><a href="#">Specialist Service Four</a></li>
-                    <li><a href="#">Service Five</a></li>
+                    {props.services.map((service, index) =>
+                        <li key={index}><a href={service.linkUrl}>{service.linkText}</a></li>
+                    )}
                 </ul>
             </div>
             <div>
