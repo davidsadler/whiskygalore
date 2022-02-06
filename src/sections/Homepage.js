@@ -58,6 +58,8 @@ const GET_HOMEPAGE = gql`
       contentRightDescription
       contentRightLinkText
       contentRightLinkUrl
+      contactMessage
+      contactPhone
     }
   }
 }
@@ -86,7 +88,7 @@ const Homepage = () => {
                         linkText={entry.contentRightLinkText}
                         linkUrl={entry.contentRightLinkUrl}
                     />
-                    <Contact/>
+                    <Contact message={entry.contactMessage} phone={entry.contactPhone}/>
                     <Form/>
                     <FooterInfo/>
                     <Footer/>

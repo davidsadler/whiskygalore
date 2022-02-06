@@ -1,4 +1,4 @@
-dateModified: 1644181512
+dateModified: 1644182021
 email:
   fromEmail: admin@example.com
   fromName: Whiskygalore
@@ -6,6 +6,7 @@ email:
 meta:
   __names__:
     0d1bdf1a-9d1f-4656-8e7a-5d4b0a4795f8: Item # Item
+    0fd036ba-fd30-43c7-a8df-42415c198b12: 'Contact Message' # Contact Message
     1f51a840-5dd0-47c8-98b9-9681d761022b: 'Content Right Link Text' # Content Right Link Text
     02f6c616-acf7-492c-a46e-a6558ec33a1f: Url # Url
     003da290-8241-4728-b3a7-69aa499c17d2: 'Link Text' # Link Text
@@ -45,6 +46,7 @@ meta:
     ac0e6427-306f-4c14-9552-00d67b4ff5c9: Description # Description
     ad4fee51-0e0c-4f8d-83d0-366aa74c639c: Tabs # Tabs
     b8d09fb6-6c98-41f3-be23-b2a503132d26: 'Link Text' # Link Text
+    c0c4c07e-395d-42e9-b31a-0875c4b457ea: 'Contact Phone' # Contact Phone
     c4465209-bcec-400f-abf2-c8133e127126: 'Tab Title' # Tab Title
     cf77ba12-63de-4778-95a8-5ed4fe5371ec: 'Link Text' # Link Text
     d05932f7-2b07-48c3-a6ac-b403f5c2f4bb: 'Link Url' # Link Url
