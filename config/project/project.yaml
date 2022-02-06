@@ -1,4 +1,4 @@
-dateModified: 1644180286
+dateModified: 1644181512
 email:
   fromEmail: admin@example.com
   fromName: Whiskygalore
@@ -6,24 +6,29 @@ email:
 meta:
   __names__:
     0d1bdf1a-9d1f-4656-8e7a-5d4b0a4795f8: Item # Item
+    1f51a840-5dd0-47c8-98b9-9681d761022b: 'Content Right Link Text' # Content Right Link Text
     02f6c616-acf7-492c-a46e-a6558ec33a1f: Url # Url
     003da290-8241-4728-b3a7-69aa499c17d2: 'Link Text' # Link Text
     5d1877b1-a1ee-461b-8294-a7259e932e32: 'Link Url' # Link Url
     5ef406da-704a-42c7-b797-0e563f48d8ff: 'Link Text' # Link Text
+    5f3d9b6e-8212-43bb-b395-f79f7b98c28b: Description # Description
     6d6a6af8-bdc5-4f71-9717-34ca2074abee: 'Intro Description' # Intro Description
     7ea3a629-7170-4c20-b189-60addc7d21b0: Homepage # Homepage
     9baab332-2b61-4668-81ac-7ad4c612bb2a: 'Home Page' # Home Page
     9d5460f3-492b-4cda-9a5c-8c2bdc96bb52: Heading # Heading
     012ecc82-b3da-4f9f-872a-4bb1db3688a7: Common # Common
     50f68bc7-5e17-4607-a4c1-86e383650bae: Whiskies # Whiskies
+    72a3eb4f-da6a-4629-a2f2-30c4de00b26a: 'Content Right Description' # Content Right Description
     86b7f5eb-8337-4c48-98ab-1fe28e16c0e2: Cards # Cards
     206f0761-0ce2-47cf-8a78-9820d1e84a77: 'Intro Heading' # Intro Heading
     223ce368-6b6d-4b9e-ac38-2d48d0daaf7a: Image # Image
     302e9976-9095-4e4a-934d-0f370e896e96: Image # Image
     350c6d93-dcf2-4b64-a171-c3523f053b95: 'Public Schema' # Public Schema
+    437c75ad-74d9-43fa-93b0-04112c168510: Heading # Heading
     566eb675-5ddc-4e4c-ad89-825c1ccb7535: Header # Header
     569e651a-7252-4dd5-b0c9-a3a6cff3f7be: Homepage # Homepage
     662ea0ce-fc89-438e-994a-499bdc546e45: Tab # Tab
+    680b171f-e1f0-4949-92ce-478f82c94e79: 'Link Url' # Link Url
     805b7fa7-1af5-46cc-8ed5-de97073e0697: Whisky # Whisky
     913e99d7-990d-48c9-901e-2e8e32b6511c: Headlines # Headlines
     924c66eb-e965-4fc6-b209-bb92789c0c7c: Card # Card
@@ -39,6 +44,7 @@ meta:
     ab4973fd-7516-44ce-a308-b224f9af0c9f: Whiskygalore # Whiskygalore
     ac0e6427-306f-4c14-9552-00d67b4ff5c9: Description # Description
     ad4fee51-0e0c-4f8d-83d0-366aa74c639c: Tabs # Tabs
+    b8d09fb6-6c98-41f3-be23-b2a503132d26: 'Link Text' # Link Text
     c4465209-bcec-400f-abf2-c8133e127126: 'Tab Title' # Tab Title
     cf77ba12-63de-4778-95a8-5ed4fe5371ec: 'Link Text' # Link Text
     d05932f7-2b07-48c3-a6ac-b403f5c2f4bb: 'Link Url' # Link Url
@@ -49,7 +55,9 @@ meta:
     de5d6326-237b-4ef6-942b-182c39caba73: 'Tab Inactive' # Tab Inactive
     ece9977a-9375-4306-9944-9a6c13bdd987: Headline # Headline
     ee2d8e36-aba0-43ad-928d-97307f698f69: 'Tab Text' # Tab Text
+    f8dcfb69-7049-49f2-939c-e0c5feb3064f: 'Content Right Heading' # Content Right Heading
     f929aaa4-a6f9-49b1-9b31-90018bf1b7cd: Whiskies # Whiskies
+    f6605f51-6e91-4612-8d0b-1a28e16259fc: 'Content Right Link Url' # Content Right Link Url
 plugins:
   redactor:
     edition: standard

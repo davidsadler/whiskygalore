@@ -1,0 +1,19 @@
+columnSuffix: fvkseoyt
+contentColumnType: text
+fieldGroup: 9baab332-2b61-4668-81ac-7ad4c612bb2a # Home Page
+handle: contentRightHeading
+instructions: ''
+name: 'Content Right Heading'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

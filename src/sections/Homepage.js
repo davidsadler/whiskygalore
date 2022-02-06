@@ -54,6 +54,10 @@ const GET_HOMEPAGE = gql`
           }
         }
       }
+      contentRightHeading
+      contentRightDescription
+      contentRightLinkText
+      contentRightLinkUrl
     }
   }
 }
@@ -76,7 +80,12 @@ const Homepage = () => {
                     <Intro heading={entry.introHeading} description={entry.introDescription}/>
                     <Tabs tabs={entry.tabs}/>
                     <Cards cards={entry.cards}/>
-                    <ContentRight/>
+                    <ContentRight
+                        heading={entry.contentRightHeading}
+                        description={entry.contentRightDescription}
+                        linkText={entry.contentRightLinkText}
+                        linkUrl={entry.contentRightLinkUrl}
+                    />
                     <Contact/>
                     <Form/>
                     <FooterInfo/>
