@@ -34,6 +34,13 @@ const GET_HOMEPAGE = gql`
       }
       introHeading
       introDescription
+      tabs {
+        ... on tabs_tab_BlockType {
+          tabTitle
+          tabUrl
+          tabInactive
+        }
+      }      
     }
   }
 }
@@ -54,7 +61,7 @@ const Homepage = () => {
                 <div className="container">
                     <Header headlines={entry.headlines}/>
                     <Intro heading={entry.introHeading} description={entry.introDescription}/>
-                    <Tabs/>
+                    <Tabs tabs={entry.tabs}/>
                     <Cards/>
                     <ContentRight/>
                     <Contact/>

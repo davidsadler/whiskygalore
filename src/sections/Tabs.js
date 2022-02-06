@@ -1,12 +1,12 @@
 import React from 'react'
 
-export default () => (
+export default (props) => (
     <section className="tabs">
         <nav>
             <ul className="tab-group">
-                <li><a href="#">Active Tab</a></li>
-                <li><a href="#">Hovered Tab</a></li>
-                <li className="inactive"><a href="#">Inactive Tab</a></li>
+                {props.tabs.map((tab, index) =>
+                    <li className={`${tab.tabInactive ? "active" : "inactive"}`} key={index}><a href={tab.tabUrl}>{tab.tabTitle}</a></li>
+                )}
             </ul>
         </nav>
     </section>
