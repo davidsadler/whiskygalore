@@ -3,4 +3,5 @@ name: 'Public Schema'
 scope:
   - 'sections.569e651a-7252-4dd5-b0c9-a3a6cff3f7be:read' # Homepage
   - 'entrytypes.7ea3a629-7170-4c20-b189-60addc7d21b0:read' # Homepage
+  - 'volumes.d6c39b97-8c4b-4632-a10f-f6d690b521a7:read' # Cards
   - 'sections.569e651a-7252-4dd5-b0c9-a3a6cff3f7be:edit' # Homepage

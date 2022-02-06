@@ -40,7 +40,20 @@ const GET_HOMEPAGE = gql`
           tabUrl
           tabInactive
         }
-      }      
+      }
+      cards {
+        ... on cards_card_BlockType {
+          header
+          description
+          linkText
+          linkUrl
+          image {
+            url
+            width
+            height
+          }
+        }
+      }
     }
   }
 }
@@ -62,7 +75,7 @@ const Homepage = () => {
                     <Header headlines={entry.headlines}/>
                     <Intro heading={entry.introHeading} description={entry.introDescription}/>
                     <Tabs tabs={entry.tabs}/>
-                    <Cards/>
+                    <Cards cards={entry.cards}/>
                     <ContentRight/>
                     <Contact/>
                     <Form/>

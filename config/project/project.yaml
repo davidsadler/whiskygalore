@@ -1,4 +1,4 @@
-dateModified: 1644178577
+dateModified: 1644180286
 email:
   fromEmail: admin@example.com
   fromName: Whiskygalore
@@ -8,6 +8,7 @@ meta:
     0d1bdf1a-9d1f-4656-8e7a-5d4b0a4795f8: Item # Item
     02f6c616-acf7-492c-a46e-a6558ec33a1f: Url # Url
     003da290-8241-4728-b3a7-69aa499c17d2: 'Link Text' # Link Text
+    5d1877b1-a1ee-461b-8294-a7259e932e32: 'Link Url' # Link Url
     5ef406da-704a-42c7-b797-0e563f48d8ff: 'Link Text' # Link Text
     6d6a6af8-bdc5-4f71-9717-34ca2074abee: 'Intro Description' # Intro Description
     7ea3a629-7170-4c20-b189-60addc7d21b0: Homepage # Homepage
@@ -15,13 +16,17 @@ meta:
     9d5460f3-492b-4cda-9a5c-8c2bdc96bb52: Heading # Heading
     012ecc82-b3da-4f9f-872a-4bb1db3688a7: Common # Common
     50f68bc7-5e17-4607-a4c1-86e383650bae: Whiskies # Whiskies
+    86b7f5eb-8337-4c48-98ab-1fe28e16c0e2: Cards # Cards
     206f0761-0ce2-47cf-8a78-9820d1e84a77: 'Intro Heading' # Intro Heading
+    223ce368-6b6d-4b9e-ac38-2d48d0daaf7a: Image # Image
     302e9976-9095-4e4a-934d-0f370e896e96: Image # Image
     350c6d93-dcf2-4b64-a171-c3523f053b95: 'Public Schema' # Public Schema
+    566eb675-5ddc-4e4c-ad89-825c1ccb7535: Header # Header
     569e651a-7252-4dd5-b0c9-a3a6cff3f7be: Homepage # Homepage
     662ea0ce-fc89-438e-994a-499bdc546e45: Tab # Tab
     805b7fa7-1af5-46cc-8ed5-de97073e0697: Whisky # Whisky
     913e99d7-990d-48c9-901e-2e8e32b6511c: Headlines # Headlines
+    924c66eb-e965-4fc6-b209-bb92789c0c7c: Card # Card
     1365aec2-cd53-477d-9ac3-0ff6074c7872: Text # Text
     3640a29c-41e4-4f8c-9cce-73367dbb8fff: Image # Image
     5206c881-23d6-452b-805c-6c38e1abf02b: 'Whisky Fields' # Whisky Fields
@@ -32,10 +37,13 @@ meta:
     1291907d-96e0-43f0-9cc4-daa2869d04dc: Menu # Menu
     a6039a84-a2af-435b-8c36-5da10029aea9: 'Tab Url' # Tab Url
     ab4973fd-7516-44ce-a308-b224f9af0c9f: Whiskygalore # Whiskygalore
+    ac0e6427-306f-4c14-9552-00d67b4ff5c9: Description # Description
     ad4fee51-0e0c-4f8d-83d0-366aa74c639c: Tabs # Tabs
     c4465209-bcec-400f-abf2-c8133e127126: 'Tab Title' # Tab Title
+    cf77ba12-63de-4778-95a8-5ed4fe5371ec: 'Link Text' # Link Text
     d05932f7-2b07-48c3-a6ac-b403f5c2f4bb: 'Link Url' # Link Url
     d1e8755c-91e1-4d32-bf27-f8588feae365: Text # Text
+    d6c39b97-8c4b-4632-a10f-f6d690b521a7: Cards # Cards
     d75d86bd-f9a4-4ed1-a49a-06f3d7081b26: Whiskygalore # Whiskygalore
     d347ea3d-bb5d-47f2-8148-a8ba73e2c940: Title # Title
     de5d6326-237b-4ef6-942b-182c39caba73: 'Tab Inactive' # Tab Inactive
