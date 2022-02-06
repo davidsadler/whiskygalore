@@ -1,4 +1,4 @@
-dateModified: 1644176138
+dateModified: 1644177873
 email:
   fromEmail: admin@example.com
   fromName: Whiskygalore
@@ -9,11 +9,13 @@ meta:
     02f6c616-acf7-492c-a46e-a6558ec33a1f: Url # Url
     003da290-8241-4728-b3a7-69aa499c17d2: 'Link Text' # Link Text
     5ef406da-704a-42c7-b797-0e563f48d8ff: 'Link Text' # Link Text
+    6d6a6af8-bdc5-4f71-9717-34ca2074abee: 'Intro Description' # Intro Description
     7ea3a629-7170-4c20-b189-60addc7d21b0: Homepage # Homepage
     9baab332-2b61-4668-81ac-7ad4c612bb2a: 'Home Page' # Home Page
     9d5460f3-492b-4cda-9a5c-8c2bdc96bb52: Heading # Heading
     012ecc82-b3da-4f9f-872a-4bb1db3688a7: Common # Common
     50f68bc7-5e17-4607-a4c1-86e383650bae: Whiskies # Whiskies
+    206f0761-0ce2-47cf-8a78-9820d1e84a77: 'Intro Heading' # Intro Heading
     302e9976-9095-4e4a-934d-0f370e896e96: Image # Image
     350c6d93-dcf2-4b64-a171-c3523f053b95: 'Public Schema' # Public Schema
     569e651a-7252-4dd5-b0c9-a3a6cff3f7be: Homepage # Homepage
