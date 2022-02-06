@@ -1,11 +1,11 @@
-field: fe109994-56db-4b6b-bc22-e06154620dd1 # Menu Links
+field: 1291907d-96e0-43f0-9cc4-daa2869d04dc # Menu
 fieldLayouts:
-  d089e989-e4f7-4809-a99e-e7db861908a1:
+  a730b451-b0e1-4172-b8ea-fe0dbc70983b:
     tabs:
       -
         elements:
           -
-            fieldUid: 5ef406da-704a-42c7-b797-0e563f48d8ff # Link Text
+            fieldUid: d347ea3d-bb5d-47f2-8148-a8ba73e2c940 # Title
             instructions: null
             label: null
             required: true
@@ -14,7 +14,7 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            fieldUid: 131717ab-4367-46ad-8212-caaa95a565c5 # Link Destination
+            fieldUid: 02f6c616-acf7-492c-a46e-a6558ec33a1f # Url
             instructions: null
             label: null
             required: true
@@ -25,13 +25,29 @@ fieldLayouts:
         name: Content
         sortOrder: 1
 fields:
-  5ef406da-704a-42c7-b797-0e563f48d8ff: # Link Text
-    columnSuffix: leerhvep
+  02f6c616-acf7-492c-a46e-a6558ec33a1f: # Url
+    columnSuffix: null
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: itemUrl
+    instructions: ''
+    name: Url
+    searchable: false
+    settings:
+      maxLength: '255'
+      placeholder: null
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+  d347ea3d-bb5d-47f2-8148-a8ba73e2c940: # Title
+    columnSuffix: null
     contentColumnType: text
     fieldGroup: null
-    handle: linkText
+    handle: itemTitle
     instructions: ''
-    name: 'Link Text'
+    name: Title
     searchable: false
     settings:
       byteLimit: null
@@ -45,22 +61,6 @@ fields:
     translationKeyFormat: null
     translationMethod: none
     type: craft\fields\PlainText
-  131717ab-4367-46ad-8212-caaa95a565c5: # Link Destination
-    columnSuffix: axnunbig
-    contentColumnType: string(255)
-    fieldGroup: null
-    handle: linkDestination
-    instructions: ''
-    name: 'Link Destination'
-    searchable: false
-    settings:
-      maxLength: '255'
-      placeholder: null
-      types:
-        - url
-    translationKeyFormat: null
-    translationMethod: none
-    type: craft\fields\Url
-handle: link
-name: Link
+handle: item
+name: Item
 sortOrder: 1

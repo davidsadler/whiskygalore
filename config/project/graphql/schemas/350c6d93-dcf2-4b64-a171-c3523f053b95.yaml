@@ -1,2 +1,6 @@
 isPublic: true
 name: 'Public Schema'
+scope:
+  - 'sections.569e651a-7252-4dd5-b0c9-a3a6cff3f7be:read' # Homepage
+  - 'entrytypes.7ea3a629-7170-4c20-b189-60addc7d21b0:read' # Homepage
+  - 'sections.569e651a-7252-4dd5-b0c9-a3a6cff3f7be:edit' # Homepage

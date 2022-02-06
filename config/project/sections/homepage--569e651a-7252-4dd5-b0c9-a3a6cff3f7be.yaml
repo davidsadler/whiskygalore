@@ -1,0 +1,24 @@
+defaultPlacement: end
+enableVersioning: true
+handle: homepage
+name: Homepage
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  d75d86bd-f9a4-4ed1-a49a-06f3d7081b26: # Whiskygalore
+    enabledByDefault: true
+    hasUrls: true
+    template: homepage/_entry
+    uriFormat: homepage
+type: single
