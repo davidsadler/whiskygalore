@@ -22,6 +22,16 @@ const GET_HOMEPAGE = gql`
           itemUrl
         }
       }
+      headlines {
+        ... on headlines_headline_BlockType {
+          id
+          heading
+          description
+          linkText
+          linkUrl
+          tabText
+        }
+      }
     }
   }
 }
@@ -29,15 +39,18 @@ const GET_HOMEPAGE = gql`
 
 const Homepage = () => {
     const { loading, error, data } = useQuery(GET_HOMEPAGE);
+
     if (loading) return 'Loading...';
     if (error) return `Error! ${error.message}`;
 
+    let entry = data.entry;
+
     return (
         <React.Fragment>
-            <Menu items={data.entry.menu}/>
+            <Menu items={entry.menu}/>
             <div className="container-wrapper">
                 <div className="container">
-                    <Header/>
+                    <Header headlines={entry.headlines}/>
                     <Intro/>
                     <Tabs/>
                     <Cards/>

@@ -1,0 +1,153 @@
+field: 913e99d7-990d-48c9-901e-2e8e32b6511c # Headlines
+fieldLayouts:
+  989ce6ee-64d3-4819-a1f4-0ed23d2f414b:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 9d5460f3-492b-4cda-9a5c-8c2bdc96bb52 # Heading
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 0512296b-8c4a-4b1e-a84a-666b2d69a8c1 # Description
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 003da290-8241-4728-b3a7-69aa499c17d2 # Link Text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: d05932f7-2b07-48c3-a6ac-b403f5c2f4bb # Link Url
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: ee2d8e36-aba0-43ad-928d-97307f698f69 # Tab Text
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  003da290-8241-4728-b3a7-69aa499c17d2: # Link Text
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: linkText
+    instructions: ''
+    name: 'Link Text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  9d5460f3-492b-4cda-9a5c-8c2bdc96bb52: # Heading
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: ''
+    name: Heading
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  0512296b-8c4a-4b1e-a84a-666b2d69a8c1: # Description
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: description
+    instructions: ''
+    name: Description
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: '1'
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  d05932f7-2b07-48c3-a6ac-b403f5c2f4bb: # Link Url
+    columnSuffix: null
+    contentColumnType: string(255)
+    fieldGroup: null
+    handle: linkUrl
+    instructions: ''
+    name: 'Link Url'
+    searchable: false
+    settings:
+      maxLength: '255'
+      placeholder: null
+      types:
+        - url
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Url
+  ee2d8e36-aba0-43ad-928d-97307f698f69: # Tab Text
+    columnSuffix: gfcedito
+    contentColumnType: text
+    fieldGroup: null
+    handle: tabText
+    instructions: ''
+    name: 'Tab Text'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: headline
+name: Headline
+sortOrder: 1

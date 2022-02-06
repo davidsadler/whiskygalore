@@ -6,7 +6,7 @@ import {
 } from "@apollo/client";
 
 const client = new ApolloClient({
-    uri: 'http://whiskygalore.local/api',
+    uri: '/api',
     cache: new InMemoryCache()
 })
 const Provider = ({ children }) => (
