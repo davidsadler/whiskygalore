@@ -66,6 +66,12 @@ const GET_HOMEPAGE = gql`
           linkUrl
         }
       }
+      resources {
+        ... on resources_resource_BlockType {
+          linkText
+          linkUrl
+        }
+      }      
     }
   }
 }
@@ -96,7 +102,7 @@ const Homepage = () => {
                     />
                     <Contact message={entry.contactMessage} phone={entry.contactPhone}/>
                     <Form/>
-                    <FooterInfo services={entry.services}/>
+                    <FooterInfo services={entry.services} resources={entry.resources}/>
                     <Footer/>
                 </div>
             </div>

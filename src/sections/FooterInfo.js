@@ -28,9 +28,9 @@ export default (props) => (
             <div>
                 <h4>Resources</h4>
                 <ul>
-                    <li><a href="#">Resource One</a></li>
-                    <li><a href="#">Resource Link Two</a></li>
-                    <li><a href="#">Resource Three</a></li>
+                    {props.resources.map((resource, index) =>
+                        <li key={index}><a href={resource.linkUrl}>{resource.linkText}</a></li>
+                    )}
                 </ul>
             </div>
             <div>
